@@ -45,33 +45,41 @@ function checkWin() {
   if ( line === false ) {
     if ( btn1.title != "" && btn1.title === btn2.title && btn1.title === btn3.title ) {
       alert(btn1.title + ' win')
+      location.reload()
       line = true
     } else if ( btn4.title != "" && btn4.title === btn5.title && btn4.title === btn6.title) {
       alert(btn4.title + ' win')
+      location.reload()
       line = true
     } else if ( btn7.title != "" && btn7.title === btn8.title && btn7.title === btn9.title) {
       alert(btn7.title + ' win')
+      location.reload()
       line = true
     } 
   }
   if ( column === false ) {
     if ( btn1.title != "" && btn1.title === btn4.title && btn1.title === btn7.title ) {
       alert(btn1.title + ' win')
+      location.reload()
       column = true
     } else if ( btn2.title != "" && btn2.title === btn5.title && btn2.title === btn8.title) {
       alert(btn2.title + ' win')
+      location.reload()
       column = true
     } else if ( btn3.title != "" && btn3.title === btn6.title && btn3.title === btn9.title) {
       alert(btn3.title + ' win')
+      location.reload()
       column = true
     } 
   }
   if ( diagonal === false ) {
     if ( btn1.title != "" && btn1.title === btn5.title && btn1.title === btn9.title ) {
       alert(btn1.title + ' win')
+      location.reload()
       diagonal = true
     } else if ( btn3.title != "" && btn3.title === btn5.title && btn3.title === btn7.title) {
       alert(btn3.title + ' win')
+      location.reload()
       diagonal = true
     }
   }

@@ -9,14 +9,14 @@ body {
     background-color: var(--backgroud);
 }
 
-.jogo {
+.game {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
-.jogo div input {
+.game div input {
     border: none;
     padding: 3rem;
     margin: .45rem;
@@ -26,10 +26,10 @@ body {
     box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.3);
     transition: .4s;
 }
-.jogo div input:hover {
+.game div input:hover {
     background-color: var(--colorgame);
 }
-.jogo div input:active {
+.game div input:active {
     background-color: white;
 }
 
